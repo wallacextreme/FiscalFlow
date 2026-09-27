@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompNfse xmlns="http://www.abrasf.org.br/nfse.xsd">
+  <Nfse versao="2.04">
+    <InfNfse Id="NFSE12345">
+      <Numero>12345</Numero>
+      <CodigoVerificacao>9F8E7D6C5B</CodigoVerificacao>
+      <DataEmissao>2024-02-15T15:20:00</DataEmissao>
+      <DeclaracaoPrestacaoServico>
+        <InfDeclaracaoPrestacaoServico>
+          <Servico>
+            <Valores>
+              <ValorServicos>3500.00</ValorServicos>
+              <ValorDeducoes>0.00</ValorDeducoes>
+              <ValorPis>22.75</ValorPis>
+              <ValorCofins>105.00</ValorCofins>
+              <ValorInss>0.00</ValorInss>
+              <ValorIr>52.50</ValorIr>
+              <ValorCsll>35.00</ValorCsll>
+              <OutrasRetencoes>0.00</OutrasRetencoes>
+              <ValorIss>105.00</ValorIss>
+              <Aliquota>3.00</Aliquota>
+              <DescontoIncondicionado>0.00</DescontoIncondicionado>
+              <DescontoCondicionado>0.00</DescontoCondicionado>
+            </Valores>
+            <IssRetido>2</IssRetido>
+            <ItemListaServico>17.01</ItemListaServico>
+            <CodigoCnae>6201500</CodigoCnae>
+            <Discriminacao>ASSESSORIA TECNICA E CONSULTORIA EMPRESARIAL</Discriminacao>
+            <CodigoMunicipio>3550308</CodigoMunicipio>
+          </Servico>
+          <Prestador>
+            <CpfCnpj>
+              <Cnpj>11222333000181</Cnpj>
+            </CpfCnpj>
+            <InscricaoMunicipal>87654321</InscricaoMunicipal>
+          </Prestador>
+          <Tomador>
+            <IdentificacaoTomador>
+              <CpfCnpj>
+                <Cnpj>44555666000172</Cnpj>
+              </CpfCnpj>
+            </IdentificacaoTomador>
+            <RazaoSocial>EMPRESA PARCEIRA COMERCIAL LTDA</RazaoSocial>
+            <Endereco>
+              <Endereco>RUA COMENDADOR ARAUJO</Endereco>
+              <Numero>500</Numero>
+              <Bairro>BATEL</Bairro>
+              <CodigoMunicipio>4106902</CodigoMunicipio>
+              <Uf>PR</Uf>
+              <Cep>80420000</Cep>
+            </Endereco>
+          </Tomador>
+        </InfDeclaracaoPrestacaoServico>
+      </DeclaracaoPrestacaoServico>
+      <ValoresNfse>
+        <BaseCalculo>3500.00</BaseCalculo>
+        <Aliquota>3.00</Aliquota>
+        <ValorIss>105.00</ValorIss>
+        <ValorLiquidoNfse>3179.75</ValorLiquidoNfse>
+      </ValoresNfse>
+      <PrestadorServico>
+        <RazaoSocial>ALPHA CONSULTORIA E SERVICOS DIGITAIS LTDA</RazaoSocial>
+        <NomeFantasia>ALPHA DIGITAL</NomeFantasia>
+        <Endereco>
+          <Endereco>AV PAULISTA</Endereco>
+          <Numero>1000</Numero>
+          <Bairro>BELA VISTA</Bairro>
+          <CodigoMunicipio>3550308</CodigoMunicipio>
+          <Uf>SP</Uf>
+          <Cep>01310100</Cep>
+        </Endereco>
+      </PrestadorServico>
+    </InfNfse>
+  </Nfse>
+</CompNfse>

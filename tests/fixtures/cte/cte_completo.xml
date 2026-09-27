@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cteProc xmlns="http://www.portalfiscal.inf.br/cte" versao="4.00">
+  <CTe xmlns="http://www.portalfiscal.inf.br/cte">
+    <infCte Id="CTe35240211222333000181570010000005011778899001" versao="4.00">
+      <ide>
+        <cUF>35</cUF>
+        <cCT>77889900</cCT>
+        <CFOP>5353</CFOP>
+        <natOp>PRESTACAO DE SERVICO DE TRANSPORTE</natOp>
+        <mod>57</mod>
+        <serie>1</serie>
+        <nCT>501</nCT>
+        <dhEmi>2024-02-10T08:30:00-03:00</dhEmi>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>1</cDV>
+        <tpAmb>1</tpAmb>
+        <tpCTe>0</tpCTe>
+        <procEmi>0</procEmi>
+        <verProc>FiscalFlow 1.0</verProc>
+        <cMunIni>3550308</cMunIni>
+        <xMunIni>SAO PAULO</xMunIni>
+        <UFIni>SP</UFIni>
+        <cMunFim>3304557</cMunFim>
+        <xMunFim>RIO DE JANEIRO</xMunFim>
+        <UFFim>RJ</UFFim>
+        <modal>01</modal>
+        <tpServ>0</tpServ>
+      </ide>
+      <emit>
+        <CNPJ>11222333000181</CNPJ>
+        <IE>123456789111</IE>
+        <xNome>RAPIDO BRASIL TRANSPORTES RODOVIARIOS LTDA</xNome>
+        <xFant>RAPIDO BRASIL</xFant>
+        <enderEmit>
+          <xLgr>AV DAS NACOES UNIDAS</xLgr>
+          <nro>2000</nro>
+          <xBairro>BROOKLIN</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>SAO PAULO</xMun>
+          <CEP>04578000</CEP>
+          <UF>SP</UF>
+        </enderEmit>
+      </emit>
+      <rem>
+        <CNPJ>44555666000172</CNPJ>
+        <IE>987654321000</IE>
+        <xNome>INDUSTRIA PAULISTA DE COMPONENTES SA</xNome>
+        <enderReme>
+          <xLgr>RUA INDUSTRIAL</xLgr>
+          <nro>50</nro>
+          <xMun>SAO PAULO</xMun>
+          <UF>SP</UF>
+        </enderReme>
+      </rem>
+      <dest>
+        <CNPJ>77888999000155</CNPJ>
+        <IE>11223344</IE>
+        <xNome>COMERCIO CARIOCA DE ELETRONICOS LTDA</xNome>
+        <enderDest>
+          <xLgr>AV BRASIL</xLgr>
+          <nro>1500</nro>
+          <xMun>RIO DE JANEIRO</xMun>
+          <UF>RJ</UF>
+        </enderDest>
+      </dest>
+      <vPrest>
+        <vTPrest>2800.00</vTPrest>
+        <vRec>2800.00</vRec>
+        <Comp>
+          <xNome>FRETE PESO</xNome>
+          <vComp>2500.00</vComp>
+        </Comp>
+        <Comp>
+          <xNome>PEDAGIO</xNome>
+          <vComp>300.00</vComp>
+        </Comp>
+      </vPrest>
+      <imp>
+        <ICMS>
+          <ICMS00>
+            <CST>00</CST>
+            <vBC>2800.00</vBC>
+            <pICMS>12.00</pICMS>
+            <vICMS>336.00</vICMS>
+          </ICMS00>
+        </ICMS>
+      </imp>
+      <infCTeNorm>
+        <infCarga>
+          <vCarga>45000.00</vCarga>
+          <proPred>EQUIPAMENTOS DE INFORMATICA</proPred>
+          <infQ>
+            <cUnid>01</cUnid>
+            <tpMed>PESO BRUTO</tpMed>
+            <qCarga>1250.0000</qCarga>
+          </infQ>
+        </infCarga>
+      </infCTeNorm>
+    </infCte>
+  </CTe>
+  <protCTe versao="4.00">
+    <infProt>
+      <tpAmb>1</tpAmb>
+      <chCTe>35240211222333000181570010000005011778899001</chCTe>
+      <dhRecbto>2024-02-10T08:31:00-03:00</dhRecbto>
+      <nProt>135240001112223</nProt>
+      <digVal>ABC456DEF123=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso do CT-e</xMotivo>
+    </infProt>
+  </protCTe>
+</cteProc>

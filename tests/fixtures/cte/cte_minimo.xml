@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CTe xmlns="http://www.portalfiscal.inf.br/cte">
+  <infCte Id="CTe35240211222333000181570010000005021665544337" versao="4.00">
+    <ide>
+      <cUF>35</cUF>
+      <cCT>16655443</cCT>
+      <CFOP>5353</CFOP>
+      <natOp>TRANSPORTE MUNICIPAL</natOp>
+      <mod>57</mod>
+      <serie>1</serie>
+      <nCT>502</nCT>
+      <dhEmi>2024-02-12T14:10:00-03:00</dhEmi>
+      <tpImp>1</tpImp>
+      <tpEmis>1</tpEmis>
+      <cDV>7</cDV>
+      <tpAmb>1</tpAmb>
+      <tpCTe>0</tpCTe>
+      <procEmi>0</procEmi>
+      <verProc>FiscalFlow 1.0</verProc>
+      <modal>01</modal>
+      <tpServ>0</tpServ>
+    </ide>
+    <emit>
+      <CNPJ>11222333000181</CNPJ>
+      <IE>123456789111</IE>
+      <xNome>RAPIDO BRASIL TRANSPORTES RODOVIARIOS LTDA</xNome>
+      <enderEmit>
+        <xMun>SAO PAULO</xMun>
+        <UF>SP</UF>
+      </enderEmit>
+    </emit>
+    <dest>
+      <CPF>52998224725</CPF>
+      <xNome>DESTINATARIO FINAL PESSOA FISICA</xNome>
+      <enderDest>
+        <xMun>CAMPINAS</xMun>
+        <UF>SP</UF>
+      </enderDest>
+    </dest>
+    <vPrest>
+      <vTPrest>450.00</vTPrest>
+      <vRec>450.00</vRec>
+    </vPrest>
+    <imp>
+      <ICMS>
+        <ICMSSN>
+          <CST>90</CST>
+        </ICMSSN>
+      </ICMS>
+    </imp>
+  </infCte>
+</CTe>

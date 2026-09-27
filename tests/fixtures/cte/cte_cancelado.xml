@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cteProc xmlns="http://www.portalfiscal.inf.br/cte" versao="4.00">
+  <CTe xmlns="http://www.portalfiscal.inf.br/cte">
+    <infCte Id="CTe35240211222333000181570010000005031112233440" versao="4.00">
+      <ide>
+        <cUF>35</cUF>
+        <cCT>11122334</cCT>
+        <CFOP>5353</CFOP>
+        <natOp>PRESTACAO DE SERVICO DE TRANSPORTE</natOp>
+        <mod>57</mod>
+        <serie>1</serie>
+        <nCT>503</nCT>
+        <dhEmi>2024-02-14T09:00:00-03:00</dhEmi>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>1</tpAmb>
+        <tpCTe>0</tpCTe>
+        <procEmi>0</procEmi>
+        <verProc>FiscalFlow 1.0</verProc>
+        <modal>01</modal>
+        <tpServ>0</tpServ>
+      </ide>
+      <emit>
+        <CNPJ>11222333000181</CNPJ>
+        <IE>123456789111</IE>
+        <xNome>RAPIDO BRASIL TRANSPORTES RODOVIARIOS LTDA</xNome>
+      </emit>
+      <dest>
+        <CNPJ>77888999000155</CNPJ>
+        <xNome>COMERCIO CARIOCA DE ELETRONICOS LTDA</xNome>
+      </dest>
+      <vPrest>
+        <vTPrest>1500.00</vTPrest>
+        <vRec>1500.00</vRec>
+      </vPrest>
+      <imp>
+        <ICMS>
+          <ICMS00>
+            <CST>00</CST>
+            <vBC>1500.00</vBC>
+            <pICMS>12.00</pICMS>
+            <vICMS>180.00</vICMS>
+          </ICMS00>
+        </ICMS>
+      </imp>
+    </infCte>
+  </CTe>
+  <protCTe versao="4.00">
+    <infProt>
+      <tpAmb>1</tpAmb>
+      <chCTe>35240211222333000181570010000005031112233440</chCTe>
+      <dhRecbto>2024-02-14T09:10:00-03:00</dhRecbto>
+      <nProt>135240009988776</nProt>
+      <digVal>UVW789XYZ012=</digVal>
+      <cStat>101</cStat>
+      <xMotivo>Cancelamento de CT-e homologado</xMotivo>
+    </infProt>
+  </protCTe>
+</cteProc>

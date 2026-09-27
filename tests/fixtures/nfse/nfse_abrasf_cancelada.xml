@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompNfse xmlns="http://www.abrasf.org.br/nfse.xsd">
+  <Nfse versao="2.04">
+    <InfNfse Id="NFSE99999">
+      <Numero>99999</Numero>
+      <CodigoVerificacao>ABC123XYZ</CodigoVerificacao>
+      <DataEmissao>2024-03-01T08:00:00</DataEmissao>
+      <DeclaracaoPrestacaoServico>
+        <InfDeclaracaoPrestacaoServico>
+          <Servico>
+            <Valores>
+              <ValorServicos>1200.00</ValorServicos>
+              <ValorIss>36.00</ValorIss>
+              <Aliquota>3.00</Aliquota>
+            </Valores>
+            <ItemListaServico>01.01</ItemListaServico>
+            <Discriminacao>ANALISE E DESENVOLVIMENTO DE SISTEMAS</Discriminacao>
+          </Servico>
+          <Prestador>
+            <CpfCnpj>
+              <Cnpj>11222333000181</Cnpj>
+            </CpfCnpj>
+          </Prestador>
+          <Tomador>
+            <IdentificacaoTomador>
+              <CpfCnpj>
+                <Cnpj>44555666000172</Cnpj>
+              </CpfCnpj>
+            </IdentificacaoTomador>
+            <RazaoSocial>CLIENTE TESTE CANCELADO LTDA</RazaoSocial>
+          </Tomador>
+        </InfDeclaracaoPrestacaoServico>
+      </DeclaracaoPrestacaoServico>
+      <PrestadorServico>
+        <RazaoSocial>ALPHA CONSULTORIA E SERVICOS DIGITAIS LTDA</RazaoSocial>
+        <Endereco><Uf>SP</Uf></Endereco>
+      </PrestadorServico>
+    </InfNfse>
+  </Nfse>
+  <NfseCancelamento>
+    <Confirmacao>
+      <DataHora>2024-03-02T14:30:00</DataHora>
+      <Pedido>
+        <InfPedidoCancelamento Id="Canc99999">
+          <IdentificacaoNfse>
+            <Numero>99999</Numero>
+            <CpfCnpj><Cnpj>11222333000181</Cnpj></CpfCnpj>
+            <CodigoMunicipio>3550308</CodigoMunicipio>
+          </IdentificacaoNfse>
+          <CodigoCancelamento>1</CodigoCancelamento>
+        </InfPedidoCancelamento>
+      </Pedido>
+    </Confirmacao>
+  </NfseCancelamento>
+</CompNfse>

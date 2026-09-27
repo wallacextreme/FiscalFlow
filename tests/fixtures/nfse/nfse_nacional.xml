@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NFSe xmlns="http://www.sped.fazenda.gov.br/nfse" versao="1.00">
+  <infNFSe Id="NFS3550308231011222333000181000000000000001">
+    <nNFSe>2024001</nNFSe>
+    <cVerif>A1B2C3D4</cVerif>
+    <dhEmi>2024-01-20T10:30:00-03:00</dhEmi>
+    <emit>
+      <CNPJ>11222333000181</CNPJ>
+      <xNome>TECH CONSULTORIA EM TI LTDA</xNome>
+      <IM>12345678</IM>
+      <enderEmit>
+        <xLgr>AV PAULISTA</xLgr>
+        <nro>1500</nro>
+        <xBairro>BELA VISTA</xBairro>
+        <cMun>3550308</cMun>
+        <xMun>SAO PAULO</xMun>
+        <UF>SP</UF>
+        <CEP>01311200</CEP>
+      </enderEmit>
+    </emit>
+    <toma>
+      <CNPJ>44555666000172</CNPJ>
+      <xNome>CLIENTE CORPORATIVO SA</xNome>
+      <enderToma>
+        <xLgr>RUA DAS PALMEIRAS</xLgr>
+        <nro>100</nro>
+        <xBairro>JARDINS</xBairro>
+        <cMun>3550308</cMun>
+        <xMun>SAO PAULO</xMun>
+        <UF>SP</UF>
+        <CEP>01400000</CEP>
+      </enderToma>
+    </toma>
+    <serv>
+      <cServ>01.07</cServ>
+      <xServ>SUPORTE TECNICO E DESENVOLVIMENTO DE SOFTWARE EM NUVEM</xServ>
+    </serv>
+    <valores>
+      <vServ>5000.00</vServ>
+      <vDescIncond>0.00</vDescIncond>
+      <vDed>0.00</vDed>
+      <vBCISS>5000.00</vBCISS>
+      <pAliq>5.00</pAliq>
+      <vISS>250.00</vISS>
+      <vPIS>32.50</vPIS>
+      <vCOFINS>150.00</vCOFINS>
+      <vLiquida>4567.50</vLiquida>
+    </valores>
+  </infNFSe>
+</NFSe>
